@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <title>My Personal Website</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <script src="script.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external stylesheet -->
+    <script defer src="script.js"></script>
+    <title>Your Website</title>
+</head>
+<body>
+    <div class="video-container">
+        <video id="autoplay-video" muted loop>
+            <!-- MP4 video format for Safari, Internet Explorer, and Edge -->
+            <source src="/Users/mariacristel/Desktop/nycSkyline.mp4" type="video/mp4">      
+        </video>
+        <div class="overlay-elements">
+            <div class="box-container"></div>
+            <div class="box-container"></div>
+            <div class="box-container"></div>
+            <div class="box-container"></div>
+            <div class="box-container"></div>
+        </div>
+</body>
 </html>

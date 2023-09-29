@@ -1,7 +1,114 @@
-body {
-    background: rgb(43, 42, 42);
-  }
-h1 {
-    color: rgb(213, 109, 35);
-    text-align: center;
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Remove background color and adjust video styles */
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: none; /* Remove background color */
+}
+
+.overlay-elements {
+  position: fixed; /* Use 'fixed' instead of 'sticky' to position elements relative to the viewport */
+  top: 50%; /* Move the element 50% down from the top of the viewport */
+  left: 50%; /* Move the element 50% from the left of the viewport */
+  transform: translate(-50%, -50%); /* Center the element using translate */
+  z-index: 2; /* Ensure the overlay is above the video */
+}
+
+/* Boxes for Objects */
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: normal;
+  /* Add any other container styling you need */
+}
+
+.box {
+  width: 400px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 6px none;
+  border-radius: 0px;
+  padding: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  overflow: auto;
+  white-space: normal;
+  text-overflow: ellipsis;
+  /* Add padding or margin to prevent content overlap */
+  margin-bottom: 10px; /* Adjust as needed */
+  text-align: center;
+}
+
+.box:hover {
+  width: 733px;
+  height: 450px;
+  white-space: normal;
+  text-overflow: initial;
+  /* Add padding or margin to prevent content overlap */
+  margin-bottom: 20px; /* Adjust as needed */
+  /* Other hover styles */
+}
+
+.content {
+  padding: 10px;
+  display: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 700px;
+  height: auto;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: left;
+}
+
+.box:hover .content {
+  display: grid;
+  width: 700px;
+  height: auto;
+}
+
+.box img {
+  display: none; /* Initially hide the image */
+}
+
+/* Style for the image when hovering over the box */
+.box:hover img {
+  width: auto;
+  height: 300px; /* Adjust as needed */
+  display: block; /* Show the image on hover */
+}
+
+h2 {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  font-size: 1.5em;
+  margin: 0; /* Remove margin to ensure the element takes up the full width */
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  overflow: hidden; /* Hide any overflowing content */
+  white-space: normal; /* Prevent text from wrapping */
 }

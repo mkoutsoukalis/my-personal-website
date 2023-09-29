@@ -1,0 +1,35 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "title": "About",
+      "details": "My introduction to programming began in academia with statistics and data analysis, acquiring coding knowledge to tackle diverse quantitative challenges in computer applications suitable for multivariate and predictive analytics using SAS, R, and Python languages. I then received a certification from the Flatiron School in New York, gaining a robust foundation in software engineering by crafting full-stack web applications with a combination of back-end and front-end development techniques. I expanded my skillset in Python and became well-versed in JavaScript, ReactJS, Flask, SQL, and SQLAlchemy, working with data structures, table relations, DOM manipulation, CRUD actions, authentication, deployment processes, APIs, and AI model integration. My main objective is to craft sophisticated applications that incorporate emerging technologies, transforming intricate ideas into tangible solutions, thereby furthering my capacity to contribute meaningfully to the tech industry.",
+      "images":["/Users/mariacristel/Desktop/shutterstock_2058573251.jpg"]
+    },
+    {
+      "id": 2,
+      "title": "Passions",
+      "details": "My passion for Youth Advocacy ignited during my pursuit of a B.S. in Psychology through the study of resilience and became the driving force behind my commitment to empowering young individuals facing adversity. The latest data from childwelfare.gov reveals that there are more than 391,000 children and adolescents currently placed in foster care across the United States. California holds the largest percentage with LA County housing more foster youth than the entire state of New York. Among these young individuals, a significant health requirement too often left unaddressed is their mental and behavioral well-being. Sharing the objective to transform these results, I joined The Academy Project, a 501(c)(3) nonprofit organization founded in 2015 for foster youth in South Los Angeles. We implement educational enrichment initiatives and mentorship programs that nurture social and emotional intelligence, encourage identity exploration, and instill a sense of permanence. Our efforts combined aim to help improve life outcomes actively promoting the prosperity and growth of our next generation.",
+      "images":["/Users/mariacristel/Desktop/shutterstock_1582561018.jpg"]
+    },
+    {
+      "id": 3,
+      "title": "Portfolio",
+      "details": "Generation in progress",
+      "images":["/Users/mariacristel/Desktop/shutterstock_2220395233.jpg"]
+    },
+    {
+      "id": 4,
+      "title": "Now Playing",
+      "details": "Click the image to see what I'm listening to on Spotify:",
+      "images":["/Users/mariacristel/Desktop/shutterstock_2024931647.jpg"],
+      "url": ["https://open.spotify.com/user/hioo7bwli5g91srh9apfdo10g?si=2d49fa71d82b420e"]
+    },
+    {
+      "id": 5,
+      "title": "Contact",
+      "details": "Maria Cristel Koutsoukalis - mkoutsoukalis@outlook.com",
+      "images":["/Users/mariacristel/Desktop/shutterstock_2133966963.jpg"]
+    }
+  ]
+}
